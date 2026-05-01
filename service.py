@@ -102,4 +102,26 @@ def modificar_servicio():
             
     print("\nModificando servicio...\n...\n...\nServicio modificado!!!\n")
     modificar_json(datos)
-                    
+
+def eliminar_servicio():
+    listar_servicios()
+    datos = list(leer_json())
+    servicio_eliminado = False
+    
+    codigo = input("Ingresa el codigo del servicio a editar: ")
+        
+    if codigo:
+        i = 0
+        
+        for servicio in datos:
+            if servicio["codigo"] == codigo:
+                datos.pop(i)
+                modificar_json(datos)
+                servicio_eliminado = True
+                break
+            i += 1
+    
+    if servicio_eliminado:
+        print("\nEliminando servicio...\n...\n...\nServicio eliminado!!!\n")
+    else:
+        print("\nNo hubo ninguna coincidencia... Regresando")

@@ -25,7 +25,7 @@ while mantener_activo:
             case 2:
                 modificar_servicio()
             case 3:
-                # Funcionalidad de eliminar un servicio
+                eliminar_servicio()
                 pass
             case 4:
                 mantener_activo = False
