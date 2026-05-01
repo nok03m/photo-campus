@@ -52,3 +52,10 @@ def agregar_servicio():
             modificar_json(datos)
             break
         
+def listar_servicios():
+    datos = list(leer_json())
+    
+    print("- Lista de servicios -")
+    for servicio in datos:
+        print(servicio)
+listar_servicios()
