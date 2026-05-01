@@ -5,7 +5,7 @@ mantener_activo = True
 while mantener_activo:
     print("\n\n\t\t=== Gestion de Servicios Fotograficos ===")
     print("1. Registrar servicio")
-    print("2. Listar servicios (implementando)")
+    print("2. Modificar servicio")
     print("3. Eliminar servicio (implementando)")
     print("4. Salir")
 
@@ -22,10 +22,8 @@ while mantener_activo:
         match opcion:
             case 1:
                 agregar_servicio()
-                pass
             case 2:
-                # Funcionalidad de listar servicios
-                pass
+                modificar_servicio()
             case 3:
                 # Funcionalidad de eliminar un servicio
                 pass
