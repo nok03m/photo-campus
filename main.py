@@ -1,7 +1,9 @@
+from service import *
+
 mantener_activo = True
 
 while mantener_activo:
-    print("=== Gestion de Servicios Fotograficos ===")
+    print("\n\n\t\t=== Gestion de Servicios Fotograficos ===")
     print("1. Registrar servicio")
     print("2. Listar servicios (implementando)")
     print("3. Eliminar servicio (implementando)")
@@ -19,7 +21,7 @@ while mantener_activo:
     else:
         match opcion:
             case 1:
-                # Funcionalidad de agregar servicio
+                agregar_servicio()
                 pass
             case 2:
                 # Funcionalidad de listar servicios
