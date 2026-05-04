@@ -1,5 +1,5 @@
 # 📸 Photo Campus
-Photo Campus es una solución robusta desarrollada en Python diseñada para la gestión, procesamiento y organización de registros fotográficos dentro de entornos académicos. El sistema permite automatizar el flujo de captura y almacenamiento de imágenes, asegurando la integridad de los datos y facilitando la consulta de recursos visuales vinculados a la comunidad del campus.
+Photo Campus es una solucion que permite el registro, modificacion y consultas de servicios fotograficos.
 
 ## ⚙️ Configuración y Uso
 Sigue estos pasos para poner en marcha el entorno de desarrollo:
