@@ -4,9 +4,9 @@ mantener_activo = True
 
 while mantener_activo:
     print("\n\n\t\t=== Gestion de Servicios Fotograficos ===")
-    print("1. Registrar servicio")
-    print("2. Modificar servicio")
-    print("3. Eliminar servicio (implementando)")
+    print("1. Registrar servicio.")
+    print("2. Modificar servicio.")
+    print("3. Eliminar servicio (implementando).")
     print("4. Salir")
 
     opcion = 0
